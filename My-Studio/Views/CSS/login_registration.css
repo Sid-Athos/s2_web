@@ -1,0 +1,86 @@
+       .form {
+        margin-left:42%;
+        }
+        .msg {
+        margin-left:37%;
+        }
+        .href {
+        margin-left:45%;
+        }
+        .txt {
+        float: right;
+        }
+        .verif {
+        margin-left:6%;
+        padding:5px 25px;
+        border: none;
+        border-radius: 4px;
+        color: black;
+        background: grey;
+
+        }
+        input.champ {
+        Border-Color: red;
+        margin-top:12px;
+        margin-left: 2%;
+        line-height: 80px;
+        height:45px;
+        max-height: 25px;
+        color : black;
+        }
+        body {
+        Background-Color: white;
+        font-family: 'Josefin Sans',sans serif;
+        font-size : 16px;
+       color: #990033;
+
+        }
+     /*Barre de naviguation horizontale*/
+      ul.hori
+      {
+        list-style-type: none;
+        margin-top: 0%;
+        padding: 0;
+        overflow: hidden;
+        background-color: #990033;
+        /*Reste statique, même quand on défile la page*/
+        position: fixed;
+        top: 0;
+        width: 100%;      
+	}
+      li.hori
+      {
+        float: left;
+      }
+      li a.hori
+      {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 44px 46px;
+        text-decoration: none;
+      }
+      li a.hori:hover
+      {
+        background-color: #4CAF50;
+      }
+      li a.hori1
+      {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 44px 46px;
+        text-decoration: none;
+      }
+      li a.hori1:hover
+      {
+        background-color: #4CAF50;
+      }
+      .active
+      {
+        width:120px;
+      }
+    input
+      {
+      }
+

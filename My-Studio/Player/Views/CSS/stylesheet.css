@@ -1,0 +1,57 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #a71717;
+    color:hsla(199, 19%, 29%, 0.815);
+}
+table{
+    font-size:16px;
+    left:-3%;
+    color:hsla(199, 19%, 29%, 0.815);
+    /* color: #FFFFF5;*/
+}
+.options_zone{
+    font-weight:bold;
+    color:#decba4;
+    border:0px;
+    height:10%;
+    width:10%;
+    border-collapse: collapse;
+    -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px;
+}
+.footer_zone{
+    
+    border-collapse: collapse;
+    left:-15px;
+}
+ul {
+    list-style-type:none;
+    margin-top: -50px;
+    margin-right:9px;
+}
+input {
+    background: #decba4;
+    color:hsla(199, 19%, 29%, 0.815);
+    width : 170px;
+    height: 35px;
+    margin-top: 25px;
+    margin-right: 10%;
+    position:relative;
+    border:0;
+    border-radius: 6px;
+    border-color: #decba4;
+    cursor: pointer;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.button_choice {
+    margin-bottom: -15px;
+    color:hsla(199, 19%, 29%, 0.815);
+}
+input:hover,
+input:active {
+    background:#3d5504;
+    color: #decba4;
+}
+            

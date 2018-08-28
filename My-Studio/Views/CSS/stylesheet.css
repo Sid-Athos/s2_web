@@ -1,0 +1,245 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    Background-Color:WhiteSmoke;
+}
+
+@media print {
+    
+    #player {page-break-after: always;}
+}
+
+.table_genre {
+    margin-top:50px;
+    font-Weight: Bold;
+   text-align:center;
+    border-collapse: collapse;
+    width:960px;
+    height:50px;
+    position: absolute;
+}
+#genre {
+    Background-Color:Grey;
+    position: absolute;
+    left:300px;
+    top:90px;
+}
+.ALL {
+    display: block;
+    height:200px;
+    overflow: scroll;
+    font-Weight: Bold;
+    position: absolute;
+    width:960px;
+    left:300px;
+    top:200px;
+}
+.RAP {
+    display: block;
+    height:200px;
+    overflow: scroll;
+    font-Weight: Bold;
+    position: absolute;
+    width:960px;
+    left:300px;
+    top:200px;
+}
+.RAI {
+    font-Weight: Bold;
+    display: block;
+    height:200px;
+    overflow: scroll;
+    width:960px;
+    position: absolute;
+    left:300px;
+    top:200px;
+}
+.RAGGAE {
+    display: block;
+    height:200px;
+    overflow: scroll;
+    font-Weight: Bold;
+    width:960px;
+    position: absolute;
+    left:300px;
+    top:200px;
+}
+.RNB {
+    display: block;
+    height:200px;
+    overflow: scroll;
+    font-Weight: Bold;
+    width:960px;
+    position: absolute;
+    left:300px;
+    top:200px;
+}
+.VARIETE {
+    display: block;
+    height:200px;
+    overflow: scroll;
+    font-Weight: Bold;
+    width:960px;
+    position: absolute;
+    left:300px;
+    top:200px;
+}
+.JAZZ {
+    display: block;
+    height:200px;
+    overflow: scroll;
+    font-Weight: Bold;
+    width:960px;
+    position: absolute;
+    left:300px;
+    top:200px;
+}
+.BLUES {
+    display: block;
+    height:200px;
+    overflow: scroll;
+    font-Weight: Bold;
+    width:960px;
+    position: absolute;
+    left:300px;
+    top:200px;
+}
+#impair {
+    background-color: WhiteSmoke;
+}
+#pair {
+    background-color: #990033;
+    color:white;
+}
+.ligne {
+    width:900px;
+    font-Weight: Bold;
+   text-align:center;
+    border-collapse: collapse;
+    position: absolute;
+}
+#navbar {
+    position: relative;
+    margin-top: -20px;
+    margin-left: -10px;
+    width: 15%;
+    min-width: 250px;
+    min-height: 300px;
+    background-color: #990033;
+    height: 75%;
+    font-family: 'Titillium Web', sans-serif;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+#search_form {
+    margin-top:12px;
+    width: 70%;
+    margin-right: -50px;
+    margin-bottom: -15px;
+}
+
+#a {
+    border-left: 15px;
+}
+#liste_menu .acc {
+    text-decoration: none;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+#liste_menu .acc:hover {
+    text-decoration: none;
+    background-size: 100%;
+    display: block;
+    align-content: center;
+    transition: color .6s;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+hr{
+    margin-right:40%;
+    margin-left:-25px;
+    width: 80%;
+}
+
+
+#icon{
+    position: relative;
+    padding-right:25px;
+    margin-left: 80%;
+    margin-top:-6%;
+    margin-bottom:-30px;
+    height:35px;
+    width:35px;
+}
+
+#menu {
+    font-size: 24px;
+    color: white;
+    list-style-type: none;
+    position:relative;
+    margin-left: 10px;
+}
+#liste_menu{
+    margin-left: -18%;
+}
+
+#liste #liste{
+    position: relative;
+    text-align: left;
+
+}
+
+h1 {
+    font-size:70px;
+    font-family: 'Lato', sans-serif;
+}
+     /*Barre de naviguation horizontale*/
+      ul.horizontale
+      {
+        list-style-type: none;
+        margin-top: -1%;
+        margin-left: -5%;
+        padding: 0;
+        overflow: hidden;
+        background-color: #990033;
+        /*Reste statique, même quand on défile la page
+        position: fixed;
+        top: 0;*/
+        width: 119%;
+      }
+      li.horizontale
+      {
+        float: left;
+      }
+      li a.horizontale
+      {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 44px 46px;
+        text-decoration: none;
+      }
+      li a.horizontale:hover
+      {
+        background-color: #4CAF50;
+      }
+      li a.horizontale1
+      {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 44px 46px;
+        text-decoration: none;
+      }
+      li a.horizontale1:hover
+      {
+        background-color: #4CAF50;
+      }
+      .active
+      {
+        width:120px;
+      }
+    input
+      {
+      }
+

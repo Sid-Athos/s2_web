@@ -1,0 +1,27 @@
+{
+    "_id": "5b6e8c66568a4e65461a5893",
+    "uuid": "889fd936-1a1e-31ac-b1fc-1ca34576301d",
+    "coins": "146",
+    "onlinetime": "988",
+    "logins": "540",
+    "messages": "31",
+    "rounds": "0",
+    "lobby": {
+        "balloons": {
+            "skeleton": "true",
+            "creeper": "true",
+            "enderdragon": "true",
+            "wither": "true"
+        },
+        "jumpandrun": "true"
+    },
+    "stickfight": {
+        "inventory": {
+            "stick": "0",
+            "blocks": "1"
+        },
+        "rounds": "26",
+        "kills": "219",
+        "deaths": "156"
+    }
+}
